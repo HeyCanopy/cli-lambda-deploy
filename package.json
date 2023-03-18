@@ -1,5 +1,5 @@
 {
-	"version": "1.0.7-c1",
+	"version": "1.0.7-c2",
 	"license": "MIT",
 	"author": {
 		"name": "Adrian Praja",
@@ -21,9 +21,7 @@
 		"url": "https://github.com/awspilot/cli-lambda-deploy"
 	},
 	"main": "lib/main.js",
-	"bin": {
-		"lambda": "./bin/lambda"
-	},
+	"bin": "./bin/lambda",
 	"dependencies": {
 		"aws-sdk": "^2.814.0",
 		"js-yaml": "^3.14.1",
